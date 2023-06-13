@@ -1,0 +1,8 @@
+@use '/src/scss/_partials/variables' as *;
+
+.Content {
+    position: relative;
+    width: 34.375rem;
+    height: 34.375rem;
+    background-color: $White;
+}

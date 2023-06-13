@@ -1,0 +1,75 @@
+@use 'variables' as *;
+
+/********** FONT IMPORTS **********/
+
+/****** INTER - 700 ******/
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    src:    url('/src/fonts/Inter-Bold.woff'), format('woff'),
+            url('/src/fonts/Inter-Bold.woff2'), format('woff2');
+    font-display: swap;
+}
+
+/****** INTER - 600 ******/
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    src:    url('/src/fonts/Inter-SemiBold.woff'), format('woff'),
+            url('/src/fonts/Inter-SemiBold.woff2'), format('woff2');
+    font-display: swap;
+}
+
+/****** INTER - 400 ******/
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    src:    url('/src/fonts/Inter-Regular.woff'), format('woff'),
+            url('/src/fonts/Inter-Regular.woff2'), format('woff2');
+    font-display: swap;
+}
+
+/********** FONT STYLING **********/
+
+.Header {
+    .ProjectTitle {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        text-align: right;
+    }
+    .ReactFactsTitle {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.3908rem;
+        line-height: 1.6875rem;
+        letter-spacing: $LetterSpacing;
+    }
+}
+
+.Section {
+    .FunFactsTitle {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.4413rem;
+        line-height: 2.9375rem;
+        letter-spacing: $LetterSpacing;
+    }
+    .FunFactsList > .FunFactsListItem {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+}
